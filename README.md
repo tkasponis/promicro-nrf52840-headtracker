@@ -121,17 +121,6 @@ head tracker, headtracker, FPV goggles head tracking, yaw drift, pan drift, rece
 - [Why pan drifts](https://headtracker.gitbook.io/head-tracker/getting-started/imu-calibration-and-drift) in the official docs
 - [ExpressLRS switch modes](https://www.expresslrs.org/software/switch-config/), if aux channels look steppy
 
-## Kaip paleisti ant Windows
-
-1. Du kartus trumpai paspausk Pro Micro reset. Atsiras USB diskas.
-2. Nukopijuok `promicro-headtracker.uf2` į tą diską. Diskas dingsta, kai įrašymas baigtas.
-3. LED greitai mirksi, kol giroskopas susikalibruoja. Palaikyk akinius ramiai, kol LED užsidega pastoviai.
-4. Atsisiųsk HeadTracker GUI 2.40, prijunk USB, Connect. UART nustatyk į CRSF out, invert išjungtas.
-5. Pan į 1 kanalą, tilt į 2, gain 5, impulsas 1000–2000 µs. Įjunk **Reset on double tap**. Paspausk **Save Settings**.
-6. Imtuvo UART turi būti neinvertuotas CRSF, 400000. Tada USB gali atjungti.
-
-Du stiprūs bakstelėjimai į akinius, su trumpu tarpu, grąžina centrą. To paties mygtuko į GND galima ir negręžti.
-
 ## Licence
 
 Firmware, CAD scripts, and these notes are MIT, see [LICENSE](LICENSE). HeadTracker GUI is a different project with its own licence. Do not redistribute that GUI from here.
