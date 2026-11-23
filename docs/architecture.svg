@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="420" viewBox="0 0 980 420">
+  <rect width="980" height="420" fill="#f7f5f2"/>
+  <text x="32" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#1c1917">Head tracker on the goggles, camera on the car</text>
+  <text x="32" y="58" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#57534e">Pan stays relative to the center you set. Turning the car does not capture a new nose.</text>
+
+  <rect x="32" y="88" width="250" height="250" rx="12" fill="#fff" stroke="#d6d3d1"/>
+  <text x="48" y="116" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1c1917">On the goggles</text>
+  <rect x="48" y="136" width="218" height="44" rx="8" fill="#e7f0ea"/>
+  <text x="60" y="163" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1c1917">MPU-6050  ·  I2C 0x68</text>
+  <text x="60" y="204" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#44403c">SDA silk 002    SCL silk 029</text>
+  <text x="60" y="222" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#44403c">GND silk 031, driven low</text>
+  <rect x="48" y="244" width="218" height="70" rx="8" fill="#1c1917"/>
+  <text x="60" y="272" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#fafaf9">Pro Micro nRF52840</text>
+  <text x="60" y="292" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#d6d3d1">gyro + accel, double-tap center</text>
+
+  <rect x="360" y="88" width="250" height="118" rx="12" fill="#fff" stroke="#d6d3d1"/>
+  <text x="376" y="116" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1c1917">Windows, setup only</text>
+  <text x="376" y="144" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#44403c">HeadTracker GUI 2.40</text>
+  <text x="376" y="166" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#44403c">USB serial 115200</text>
+  <text x="376" y="186" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#44403c">Unplug before you drive</text>
+
+  <rect x="360" y="230" width="250" height="108" rx="12" fill="#fff" stroke="#d6d3d1"/>
+  <text x="376" y="258" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1c1917">Radio link</text>
+  <text x="376" y="286" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#44403c">CRSF out, 400000 baud</text>
+  <text x="376" y="308" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#44403c">D1 TX → receiver RX, plus GND</text>
+
+  <rect x="688" y="88" width="260" height="250" rx="12" fill="#fff" stroke="#d6d3d1"/>
+  <text x="704" y="116" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1c1917">On the car</text>
+  <text x="704" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#44403c">ELRS receiver, for example RP1</text>
+  <text x="704" y="172" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#44403c">Flight controller or camera mixer</text>
+  <rect x="704" y="196" width="228" height="36" rx="8" fill="#e7f0ea"/>
+  <text x="716" y="219" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1c1917">CH1 pan    CH2 tilt</text>
+  <text x="704" y="260" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#44403c">CH5 held high so the link stays armed</text>
+  <text x="704" y="284" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#44403c">Servos use the pulse range you save</text>
+
+  <path d="M282 250 H360" stroke="#a8a29e" stroke-width="1.5" fill="none"/>
+  <path d="M610 284 H688" stroke="#a8a29e" stroke-width="1.5" fill="none"/>
+  <path d="M282 160 H330 V147 H360" stroke="#a8a29e" stroke-width="1.5" fill="none"/>
+</svg>
